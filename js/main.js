@@ -27,7 +27,7 @@ function open(evt){
   document.querySelector(`#${button}`).classList.add('tabs__content-item--active');
 }
 
-if (window.devicePixelRatio !== 1) { // Костыль для определения иных устройств, с коэффициентом отличным от 1
+if (window.devicePixelRatio !== 1) { 
   var dpt = window.devicePixelRatio;
   var widthM = window.screen.width * dpt;
   var widthH = window.screen.height * dpt;
